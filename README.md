@@ -1,4 +1,5 @@
-# M22_QRAindex
+# Paper: Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
+
 Routines and main data for the QRA index paper
 
 
