@@ -43,7 +43,7 @@ Project developed for the production of the results aiming an update on the quas
 		** data_comp_derivative...py
 
 
-	-> Figures
+	-> Figures production
 		
 		plot_serie_cmips_tas.py
 		plot_serie_cmips_tas_anom.py
@@ -60,6 +60,7 @@ Project developed for the production of the results aiming an update on the quas
 
 - Directiory "data"
 
+	-> Data prepared or used.
 
 	data/
 	
@@ -89,8 +90,7 @@ Project developed for the production of the results aiming an update on the quas
 
 - Directiory "figures"
 
-
-
+	-> Generated figures for the article.
 
 
 
