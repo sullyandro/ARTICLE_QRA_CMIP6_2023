@@ -22,27 +22,27 @@ Routines and main data for the article production.
 ### Organizational structure of codes and data
  
  
-- Directory "scripts"
+#### Directory "scripts"
 	
-	-> Computations and analysis
+	> Computations and analysis
 						
-		[Step  1] data_comp_obs_m18_jja_zonmean_lat-25n-75n_anom.py
-		[Step  2] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_anom_continuous.py
-		[Step  3] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_continuous.py
-		[Step  4] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_with_no-events_trend_continuous.py
-		[Step  5] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_trend_continuous.py
-		[Step  6] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_onto_ua_continuous.py
+	[Step  1] data_comp_obs_m18_jja_zonmean_lat-25n-75n_anom.py
+	[Step  2] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_anom_continuous.py
+	[Step  3] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_continuous.py
+	[Step  4] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_with_no-events_trend_continuous.py
+	[Step  5] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_trend_continuous.py
+	[Step  6] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_onto_ua_continuous.py
 
-	-> Figures production
+	> Figures production
 		
-		[Step  7] plot_serie_cmips_tas_continuous.py
-		[Step  8] plot_serie_cmips_tas_anom_continuous.py
-		[Step  9] plot_serie_cmips_tas_anom_arctic_amplification_continuous.py
-		[Step 10] plot_serie_cmips_qra_index_continuous.py
-		[Step 11] plot_serie_cmips_qra_index_rescaled_continuous.py
-		[Step 12] plot_serie_cmips_qra_index_onto_ua_continuous.py
-		[Step 13] plot_map_cmips_north_hemisphere_qra_index_trend_continuous.py
-		[Step 14] plot_series_metrics_table.py
+	[Step  7] plot_serie_cmips_tas_continuous.py
+	[Step  8] plot_serie_cmips_tas_anom_continuous.py
+	[Step  9] plot_serie_cmips_tas_anom_arctic_amplification_continuous.py
+	[Step 10] plot_serie_cmips_qra_index_continuous.py
+	[Step 11] plot_serie_cmips_qra_index_rescaled_continuous.py
+	[Step 12] plot_serie_cmips_qra_index_onto_ua_continuous.py
+	[Step 13] plot_map_cmips_north_hemisphere_qra_index_trend_continuous.py
+	[Step 14] plot_series_metrics_table.py
 	
 	It is important to follow the sequence of steps as given by the numbers when running for the first time.
 	The files generated in step 1 are required for step 2, and so on.
@@ -52,14 +52,14 @@ Routines and main data for the article production.
 	Python libraries used are listed at the beginning of each Python script.
 
 
-- Directory "data"
+#### Directory "data"
 
-	-> Data prepared or used. NetCDF4 format is the most used.  
+	> Data prepared or used. NetCDF4 format is the most used.  
 
 
-- Directory "figures"
+#### Directory "figures"
 
-	-> Generated figures for the article.
+	> Generated figures for the article.
 
 
 ### Additional information
