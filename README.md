@@ -1,9 +1,8 @@
 
-# Article Material
+## Materials for the article 
 
-Routines and main data for the article production.
+# Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
-## Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
 ### Authors
 Sullyandro O. Guimarães, Michael E. Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li.
@@ -16,6 +15,8 @@ Our manuscript reports a further analysis of the phenomenon of quasi-resonant am
 to persistent summer extreme weather events in the Northern Hemisphere. We compare results of high emission 
 scenarios from CMIP5 and CMIP6 climate projections, using a previously developed fingerprint-based semi-empirical 
 approach to project future occurrence of QRA events based on a QRA index derived from the zonally averaged surface temperature field. 
+
+Routines and main data for the article production.
 
 
 ### Organizational structure of codes and data
@@ -53,7 +54,7 @@ approach to project future occurrence of QRA events based on a QRA index derived
 
 - Directory "data"
 
-	-> Data prepared or used.
+	-> Data prepared or used. NetCDF4 format is the most used.  
 
 
 - Directory "figures"
