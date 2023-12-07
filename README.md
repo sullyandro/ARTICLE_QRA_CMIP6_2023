@@ -1,4 +1,6 @@
-# Paper 
+
+# Artical Material
+
 ## Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
 Routines and main data for the paper production.
@@ -18,7 +20,7 @@ Project developed for the production of the results aiming an update on the quas
 ### Organizational structure of codes and data
  
 
-- Directiory "scripts" [all routines]
+- Directiory "scripts"
 
 
 	-> Data aquisition and preparation
@@ -56,7 +58,7 @@ Project developed for the production of the results aiming an update on the quas
 		plot_map_cmips_north_hemisphere_qra_index_trend.py
 		
 
-- Directiory "data" [all data]
+- Directiory "data"
 
 
 	data/
@@ -85,7 +87,7 @@ Project developed for the production of the results aiming an update on the quas
 				
 
 
-- Directiory "figures" [all figures]
+- Directiory "figures"
 
 
 
