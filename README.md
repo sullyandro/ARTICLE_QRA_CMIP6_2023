@@ -65,11 +65,11 @@ Routines and main data for the article production.
 ### Additional information
 For requesting additional material or information, contact the authors.
 In this project, the authors used data from several sources, such as CMIP5, CMIP6, ERA-Interim, and ERA5.
-The citation of each data source is refered in the article.
-the authors are grateful to the institutes and projects that make the data available.
+Citation of each data source is refered in the article.
+The authors are grateful to the institutes and projects that make the data available.
 
 
-### Main references:
+### Main references
 
 Mann ME, Rahmstorf S, Kornhuber K, Steinman BA, Miller SK, Petri S, Coumou D. Projected changes in persistent extreme summer weather events: The role of quasi-resonant amplification. Sci Adv., 4(10), eaat3272. https://www.science.org/doi/10.1126/sciadv.aat3272 (2018)
 
