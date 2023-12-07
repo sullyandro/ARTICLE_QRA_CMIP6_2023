@@ -21,7 +21,7 @@ approach to project future occurrence of QRA events based on a QRA index derived
 ### Organizational structure of codes and data
  
  
-- Directiory "scripts"
+- Directory "scripts"
 	
 	-> Computations and analysis
 						
@@ -51,12 +51,12 @@ approach to project future occurrence of QRA events based on a QRA index derived
 	Python libraries used are listed at the beginning of each Python script.
 
 
-- Directiory "data"
+- Directory "data"
 
 	-> Data prepared or used.
 
 
-- Directiory "figures"
+- Directory "figures"
 
 	-> Generated figures for the article.
 
