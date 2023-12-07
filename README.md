@@ -12,83 +12,60 @@ Sullyandro O. Guimarães, Michael E. Mann, Stefan Rahmstorf, Stefan Petri, Byron
 Scientific Reports (SREP), Collection Compound hazards, 2023.
 
 ### Goals
-Our manuscript reports a further analysis of the phenomenon of quasi-resonant amplification (QRA) linked to persistent summer extreme weather events in the Northern Hemisphere. We compare results of high emission scenarios from CMIP5 and CMIP6 climate projections, using a previously developed fingerprint-based semi-empirical approach to project future occurrence of QRA events based on a QRA index derived from the zonally averaged surface temperature field. 
+Our manuscript reports a further analysis of the phenomenon of quasi-resonant amplification (QRA) linked 
+to persistent summer extreme weather events in the Northern Hemisphere. We compare results of high emission 
+scenarios from CMIP5 and CMIP6 climate projections, using a previously developed fingerprint-based semi-empirical 
+approach to project future occurrence of QRA events based on a QRA index derived from the zonally averaged surface temperature field. 
 
 
 ### Organizational structure of codes and data
  
-
+ 
 - Directiory "scripts"
-
-
-	-> Data aquisition and preparation
-
-		data_prep_era-interim_2p5dg_jja_zonmean.sh
-		data_prep_cmips_2p5dg_jja.py        
-		data_prep_cmips_2p5dg_jja_zonmean.py
-		data_prep_cmips_2p5dg_jja_zonmean_lat-25n-75n.py
-		
-
-	-> Computation and analysis
+	
+	-> Computations and analysis
 						
-		data_comp_obs_m18_jja_zonmean_lat-25n-75n_anom.py
-		data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_anom.py
-		data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index.py
-		data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_with_no-events_trend.py
-		
-		data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_onto_ua.py
-						
-		** data_comp_derivative...py
-
+		[Step  1] data_comp_obs_m18_jja_zonmean_lat-25n-75n_anom.py
+		[Step  2] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_anom_continuous.py
+		[Step  3] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_continuous.py
+		[Step  4] data_comp_cmips_obs_2p5dg_jja_zonmean_lat-25n-75n_qra_index_with_no-events_trend_continuous.py
+		[Step  5] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_trend_continuous.py
+		[Step  6] data_comp_cmips_2p5dg_jja_zonmean_lat-25n-75n_qra_index_onto_ua_continuous.py
 
 	-> Figures production
 		
-		plot_serie_cmips_tas.py
-		plot_serie_cmips_tas_anom.py
-		plot_serie_cmips_tas_anom_by_lat.py
-		plot_serie_cmips_tas_anom_arctic_amplification.py
-		
-		plot_serie_cmips_qra_index.py
-		plot_serie_cmips_qra_index_rescaled.py
-		plot_serie_cmips_qra_index_onto_ua.py
-		plot_serie_concatenation_cmips_qra_index_trend.py
-		
-		plot_map_cmips_north_hemisphere_qra_index_trend.py
-		
+		[Step  7] plot_serie_cmips_tas_continuous.py
+		[Step  8] plot_serie_cmips_tas_anom_continuous.py
+		[Step  9] plot_serie_cmips_tas_anom_arctic_amplification_continuous.py
+		[Step 10] plot_serie_cmips_qra_index_continuous.py
+		[Step 11] plot_serie_cmips_qra_index_rescaled_continuous.py
+		[Step 12] plot_serie_cmips_qra_index_onto_ua_continuous.py
+		[Step 13] plot_map_cmips_north_hemisphere_qra_index_trend_continuous.py
+		[Step 14] plot_series_metrics_table.py
+	
+	It is important to follow the sequence of steps as given by the numbers when running for the first time.
+	The files generated in step 1 are required for step 2, and so on.
+	
+	The scripts listed here were made and executed in Python version 3.9.1.
+	
+	Python libraries used are listed at the beginning of each Python script.
+
 
 - Directiory "data"
 
 	-> Data prepared or used.
 
-	data/
-	
-		cmip5/
-		
-			historical/
-		
-				tas_2p5dg_jja/
-				tas_2p5dg_jja_zonmean/
-				tas_2p5dg_jja_zonmean_lat-25n-75n/
-				tas_2p5dg_jja_zonmean_lat-25n-75n_anom/
-				tas_2p5dg_jja_zonmean_lat-25n-75n_QRAindex/
-				tas_2p5dg_jja_zonmean_lat-25n-75n_QRAindex_rescaled_1979-2019/
-					tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512_2p5dg_jja_zonmean_lat-25n-75n_QRAindex_rescaled-1979-2019.nc
-					
-			trend_analysis/
-						
-		cmip6/
-		
-		era-interim/
-		
-		Mann_et_al_2018/
-		
-		Kornhuber_et_al_2017/
-				
-
 
 - Directiory "figures"
 
 	-> Generated figures for the article.
+
+
+### Additional information
+For requesting additional material or information, contact the authors.
+In this project, the authors used data from several sources, such as CMIP5, CMIP6, ERA-Interim, and ERA5.
+The citation of each data source is refered in the article.
+the authors are grateful to the institutes and projects that make the data available.
 
 
 ### Main references:
