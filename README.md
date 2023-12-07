@@ -1,12 +1,12 @@
 # Paper: Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
-Routines and main data for the paper production
+Routines and main data for the paper production.
 
 Authors:
-Sullyandro Guimarães, Michael Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li
+Sullyandro Guimarães, Michael Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li.
 
 Running head: 
-Scientific Reports (SREP), Collection Compound hazards 
+Scientific Reports (SREP), Collection Compound hazards, 2023.
 
 Goals:
 Our manuscript reports a further analysis of the phenomenon of quasi-resonant amplification (QRA) linked to persistent summer extreme weather events in the Northern Hemisphere. We compare results of high emission scenarios from CMIP5 and CMIP6 climate projections, using a previously developed fingerprint-based semi-empirical approach to project future occurrence of QRA events based on a QRA index derived from the zonally averaged surface temperature field. 
@@ -14,7 +14,7 @@ Our manuscript reports a further analysis of the phenomenon of quasi-resonant am
 Project developed for the production of the results aiming an update on the quasi-resonant amplification paper (Mann et al., 2018), now including the outcomes from CMIP6.
 
 
-Organizational structure of the codes and data:
+Organizational structure of codes and data:
  
 
 - Directiory "scripts" [all routines]
