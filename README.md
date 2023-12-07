@@ -6,7 +6,7 @@ Routines and main data for the article production.
 ## Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
 ### Authors
-Sullyandro Guimarães, Michael Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li.
+Sullyandro O. Guimarães, Michael E. Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li.
 
 ### Running head 
 Scientific Reports (SREP), Collection Compound hazards, 2023.
