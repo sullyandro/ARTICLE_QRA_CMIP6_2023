@@ -1,5 +1,5 @@
 
-# Artical Material
+# Article Material
 
 ## Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
