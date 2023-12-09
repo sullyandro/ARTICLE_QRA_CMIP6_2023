@@ -7,8 +7,6 @@
 ### Authors
 Sullyandro O. Guimarães, Michael E. Mann, Stefan Rahmstorf, Stefan Petri, Byron A. Steinman, Daniel J. Brouillette, Shannon Christiansen, and Xueke Li.
 
-### Running head 
-Scientific Reports (SREP), Collection Compound hazards, 2023.
 
 ### Goals
 Our manuscript reports a further analysis of the phenomenon of quasi-resonant amplification (QRA) linked 
