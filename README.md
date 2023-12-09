@@ -7,11 +7,15 @@
 ### Authors
 Sullyandro O. Guimarães<sup>1,2</sup>, Michael E. Mann<sup>3</sup>, Stefan Rahmstorf<sup>1,2</sup>, Stefan Petri<sup>1</sup>, Byron A. Steinman<sup>4</sup>, Daniel J. Brouillette<sup>5</sup>, Shannon Christiansen<sup>3</sup>, Xueke Li<sup>3</sup>
 
-  <sup>1</sup>Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany
-  <sup>2</sup>University of Potsdam, Potsdam, Germany
-  <sup>3</sup>Department of Earth & Environmental Science, University of Pennsylvania, Philadelphia PA, USA
-  <sup>4</sup>University of Minnesota Duluth, Duluth, MN, USA
-  <sup>5</sup>Purdue University, West Lafayette, Indiana, USA
+<sup>1</sup>Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany
+
+<sup>2</sup>University of Potsdam, Potsdam, Germany
+
+<sup>3</sup>Department of Earth & Environmental Science, University of Pennsylvania, Philadelphia PA, USA
+
+<sup>4</sup>University of Minnesota Duluth, Duluth, MN, USA
+
+<sup>5</sup>Purdue University, West Lafayette, Indiana, USA
 
 
 ### Goals
