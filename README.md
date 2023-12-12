@@ -1,6 +1,9 @@
 
 ## Materials for the article 
 
+[![DOI](https://zenodo.org/badge/571488384.svg)](https://zenodo.org/doi/10.5281/zenodo.10364063)
+
+
 # Increased projected changes in quasi-resonant amplification and persistent summer weather extremes in the latest multimodel climate projections
 
 
